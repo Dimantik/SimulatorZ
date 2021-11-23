@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    tools:context=".view.fragment_menu.MenuFragment">
+
+    <RelativeLayout android:id="@+id/continue_game_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView android:id="@+id/continue_game"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/continue_game_button"
+            android:textColor="@color/black"
+            android:background="@drawable/background_ripple_light_with_border"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView android:id="@+id/new_game"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/new_game_button"
+            android:textColor="@color/black"
+            android:background="@drawable/background_ripple_light_with_border"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView android:id="@+id/scores"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/scores_button"
+            android:textColor="@color/black"
+            android:background="@drawable/background_ripple_light_with_border"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

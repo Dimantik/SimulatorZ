@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">SimulatorZ</string>
+    <string name="todo">todo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_game_button">Новая игра</string>
+    <string name="continue_game_button">Продолжить</string>
+    <string name="scores_button">Рекорды</string>
+    <string name="last_move_title">Итог</string>
+    <string name="current_move_title">Ход</string>
+    <string name="last_events">Отчет</string>
+    <string name="survivors">Выжившие</string>
+    <string name="diplomacy">Дипломатия</string>
+    <string name="improvements">Улучшения</string>
+
+    <!-- Названия категорий с числом -->
+    <string name="hunters">охотники(%1$d) </string>
+    <string name="farmers">фермеры(%1$d) </string>
+    <string name="fishers">рыбаки(%1$d) </string>
+    <string name="foresters">рейнджеры(%1$d) </string>
+    <string name="fighters">бойцы(%1$d) </string>
+    <string name="doctors">доктора(%1$d) </string>
+    <string name="cooks">повары(%1$d) </string>
+    <string name="scouts">разведчики</string>
+    <string name="recruiters">рекрутеры</string>
+
+    <!-- Бойцы -->
+    <string name="fighters_find_small_food_supplies_take_all">Ваш отряд бойцов нашел немного пищи(%1$d).</string>
+    <string name="fighters_find_small_food_supplies_take_not_all">Ваш отряд бойцов нашел немного пищи(%1$d), однако из-за нехватки грузоподъемности, они унес только часть пищи((%2$d).</string>
+    <string name="fighters_find_medium_food_supplies_take_all">Ваш отряд бойцов нашел пищу(%1$d).</string>
+    <string name="fighters_find_medium_food_supplies_take_not_all">Ваш отряд бойцов нашел пищу(%1$d), однако из-за нехватки грузоподъемности, они унес только часть пищи((%2$d).</string>
+    <string name="fighters_find_large_food_supplies_take_all">Ваш отряд бойцов нашел много пищи(%1$d).</string>
+    <string name="fighters_find_large_food_supplies_take_not_all">Ваш отряд бойцов нашел много пищи(%1$d), однако из-за нехватки грузоподъемности, они унес только часть пищи((%2$d).</string>
+
+    
+    <!-- Охотники -->
+    <string name="hunters_catch_beasts">Охотники в этом месяце помали дичи на %1$d единиц пищи</string>
+    <string name="hunters_die_several">Несколько(%1$d) охотников во время охоты погибли</string>
+    <string name="hunters_wounded_several">Несколько(%1$d) охотников во время охоты были ранены</string>
+    <string name="hunters_gone_several">Несколько(%1$d) охотников во время охоты пропалии</string>
+    <string name="hunters_back_several">Несколько(%1$d) пропавших охотников вернулись в поселение</string>
+
+    <!-- Рекрутеры -->
+    <string name="recruiters_die_several">Несколько(%1$d) рекрутеров погибли</string>
+    <string name="recruiters_wounded_several">Несколько(%1$d) рекрутеров были ранены</string>
+    <string name="recruiters_gone_several">Несколько(%1$d) рекрутеров пропалии</string>
+    <string name="recruiters_back_several">Несколько(%1$d) пропавших рекрутеров вернулись в поселение</string>
+
+    <!-- Рыыбаки -->
+    <string name="fishers_catch_fish">Рыбаки в этом месяце помали рыбы на %1$d единиц пищи</string>
+    <string name="fishers_die_several">Несколько(%1$d) рыбаков во время охоты погибли</string>
+    <string name="fishers_wounded_several">Несколько(%1$d) рыбаков во время охоты были ранены</string>
+    <string name="fishers_gone_several">Несколько(%1$d) рыбаков во время охоты пропалии</string>
+    <string name="fishers_back_several">Несколько(%1$d) пропавших рыбаков вернулись в поселение</string>
+
+    <!-- Фермеры -->
+    <string name="farmers_grown_food">Фермеры в этом месяце собрали урожай на %1$d единиц пищи</string>
+    <string name="farmers_grown_food_hurricane">В этом месяце была буря, которая уничтожила часть урожая. Фермерам удалось вырастить %1$d единиц пищи</string>
+    <string name="farmers_grown_food_drought">В этом месяце была сильная засуха, которая уничтожила большую часть урожая. Фермерам удалось вырастить %1$d единиц пищи</string>
+
+    <!-- Рейнджеры -->
+    <string name="foresters_picking_food">Рейнджеры в этом месяце собрали %1$d единиц пищи в лесу</string>
+    
+    <!-- Доктора -->
+    <string name="doctors_heal_all">Ваши докторы вылечили всех(%1$d) раненных</string>
+    <string name="doctors_heal_not_all">Ваши докторы вылечили раненных(%1$d), однако из-за нехватки докторов, некоторые раненные погибли: </string>
+    <string name="doctors_no_doctors_dead_all">Из-за отсутствия докторов в поселении, некоторые раненные погибли: </string>
+
+    <!-- Повары -->
+    <string name="cooks_poisoned_survivors">Из-за отсутствия достаточного колличества поваров, некоторые поселенцы(%1$d) отравились, из-за чего снизился ваш авторитет(%2$f)</string>
+    <string name="cooks_waste_food_for_nutrition">В этом месяце на пропитание поселения ушло %1$d единиц пищи</string>
+    <string name="cooks_food_has_gone_bad">Из-за переизбытка пищи на складе %1$d единиц пищи испортилось</string>
+    <string name="main_menu">Главное меню</string>
+
+    <!-- Main events -->
+    <string name="game_over_authority">В результате вашего управления поселением, ваш авторитет упал до 0, и поселение свершло вас.</string>
+    <string name="game_over_survivors">В результате вашего управления, все население колонии либо погибло либо покинуло колонию.</string>
+
+    <string name="example_result_event">Тестовое событие</string>
+
+    <string name="recruiting">Ваши рекрутеры обнаружили группу(%1$d) выживших, которые хотят вступить в вашу колонию, среди них: </string>
+    
+</resources>

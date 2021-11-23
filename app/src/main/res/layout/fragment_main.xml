@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/background_dark_transient_with_border">
+
+        <TextView android:id="@+id/top_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/primary_dark_gray"
+            android:background="@drawable/background_light_no_stroke_with_left_right_top_round_border"
+            tools:text="Ресурсы"
+            android:gravity="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout android:id="@+id/top_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/primary_dark_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp"
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp">
+
+            <ImageView android:id="@+id/last_move_info"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_img_light_events"
+                android:padding="5dp"
+                android:background="@drawable/background_dark_no_stroke_with_left_bottom_round_border"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:clickable="true" />
+
+            <ImageView android:id="@+id/survivors"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_img_dark_survivors"
+                android:padding="5dp"
+                android:background="@drawable/background_light_no_stroke"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:clickable="true" />
+
+            <ImageView android:id="@+id/improvements"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu_img_dark_improvements"
+                android:padding="5dp"
+                android:background="@drawable/background_light_no_stroke_with_right_bottom_round_border"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/background_dark_transient_with_border"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_light_no_stroke_with_left_right_top_round_border"
+                android:text="Событие"
+                android:textColor="@color/primary_dark_gray"
+                android:gravity="center"
+                android:focusable="true"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+
+        <FrameLayout android:id="@+id/bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

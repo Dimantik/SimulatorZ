@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Бойцы:"
+        android:textColor="@color/primary_dark_gray"
+        android:padding="10dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#B7B7B7"/>
+
+    <View android:id="@+id/bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary_dark_gray"/>
+
+</LinearLayout>
